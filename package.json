@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Backend test for Krakenflex",
   "scripts": {
-    "test": "jest",
+    "test": "jest --silent",
     "process": "npx ts-node --transpile-only src/index.ts"
   },
   "devDependencies": {
