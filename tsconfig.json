@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": ["es2018", "dom"],
+    "module": "commonjs",
+    "target": "es2018",
+    "outDir": "./dist",
+    "strict": true,
+    "noImplicitAny": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "types": ["node", "jest"],
+    "rootDir": ".",
+    "allowSyntheticDefaultImports": true,
+    "noErrorTruncation": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["dist", "node_modules"]
+}
